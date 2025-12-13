@@ -66,7 +66,7 @@
 
         <input type="hidden" name="creador" value="${idUsuario}" />
 
-        <button type="submit" class="btn-agregar">Agregar</button>
+        <button type="submit" class="boton">Agregar</button>
 
     </form:form>
 </div>

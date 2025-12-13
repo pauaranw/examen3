@@ -72,13 +72,13 @@
                 <input type="hidden" name="creador" value="${idUsuario}" />
                 <input type="hidden" name="id" value="${pintura.id}" />
 
-                <input type="submit" value="Editar" />
+                <input class="boton" type="submit" value="Editar" />
 
             </form:form>
             <c:if test="${pintura.creador.id == idUsuario}">
                 <form:form action="/delete/${pintura.id}" method="POST">
                     <input type="hidden" name="_method" value="DELETE"/>
-                    <button>Eliminar</button>
+                    <button class="boton-eliminar">Eliminar</button>
                 </form:form>             
             </c:if>
         </div>

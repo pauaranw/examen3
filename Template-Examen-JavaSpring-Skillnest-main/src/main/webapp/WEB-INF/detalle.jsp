@@ -37,13 +37,16 @@
                 <p>Precio <br><strong>$ ${pintura.precio}</strong> </p>
                 <p>Cantidad en inventario <br><strong> ${pintura.cantidad}</strong> </p>
             </div>
-        </div>
+
             <c:if test="${pintura.cantidad != 0}">       
-                <a class="precio" href="/buy/${pintura.id}">Comprar</a>    
+                <a class="boton-comprar" href="/buy/${pintura.id}">Comprar</a>    
             </c:if> 
             <c:if test="${pintura.cantidad == 0}">
                 <p>¡Agotado!</p>
             </c:if>
+
+        </div>
+
         
         <c:if test="${fn:length(pintura.compradores) > 0}">
             <h4>Usuarios que han comprado esta pintura:</h4>

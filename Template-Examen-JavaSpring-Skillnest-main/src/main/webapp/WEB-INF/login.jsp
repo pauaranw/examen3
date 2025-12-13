@@ -30,9 +30,9 @@
 
                 <form:label path="password">Contraseña:</form:label><br>
                 <form:input path="password" type="password" />
-                <form:errors path="password" class="error" /><br>
+                <form:errors path="password" class="error" /><br><br>
 
-                <input type="submit" value="Login" />
+                <input class="boton" type="submit" value="Login" />
         </form:form>
         </div>
         

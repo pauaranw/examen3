@@ -42,9 +42,9 @@
 
                 <form:label path="confirmarPassword">Confirmar Contraseña:</form:label><br>
                 <form:input path="confirmarPassword" type="password" />
-                <form:errors path="confirmarPassword" class="error" /><br>
+                <form:errors path="confirmarPassword" class="error" /><br><br>
 
-                <input type="submit" value="Registrarse" />
+                <input class="boton" type="submit" value="Registrarse" />
 
                 
             </form:form>

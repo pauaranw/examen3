@@ -138,10 +138,31 @@ nav a {
 }
 
 /* Botón */
-.btn-agregar {
-    width: 100%;
+.boton {
+    width: 150px;
     padding: 10px;
-    background: black;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boton-eliminar {
+    width: 150px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton-comprar {
+    width: 150px;
+    padding: 10px;
+    background: blue;
     color: white;
     border: none;
     border-radius: 6px;
